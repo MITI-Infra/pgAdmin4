@@ -10,6 +10,7 @@ Dentro da sua pasta dockerfile, crie a pasta pgAdmin4:
 ~/dockerfile# cd pgAdmin4
 ~/dockerfile/pgAdmin4#
 
+
 Monte agora a imagem do docker:
 ~/dockerfile/pgAdmin4# docker build -t pgadmin4:latest .
 Crie o container do pgAdmin4:
