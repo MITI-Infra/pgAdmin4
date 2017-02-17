@@ -4,10 +4,16 @@ pgAdmin é uma ferramenta open-source para Administração e Gerenciamento para 
 
 Como montar (Build)
 
-Dentro da sua pasta dockerfile, crie a pasta pgAdmin4 e copie os arquivos:  
+Dentro da sua pasta dockerfile, crie a pasta pgAdmin4:  
 ~/dockerfile# mkdir pgAdmin4  
 ~/dockerfile# cd pgAdmin4  
 ~/dockerfile/pgAdmin4#  
+
+Baixe os arquivos:
+~/dockerfile/pgAdmin4# wget  
+~/dockerfile/pgAdmin4# wget  
+~/dockerfile/pgAdmin4# ls  
+Dockerfile  docker-entrypoint.sh  
 
 Monte agora a imagem do docker:  
 ~/dockerfile/pgAdmin4# docker build -t pgadmin4:latest .
