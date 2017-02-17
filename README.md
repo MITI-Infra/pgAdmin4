@@ -19,12 +19,12 @@ Monte agora a imagem do docker:
 ~/dockerfile/pgAdmin4# docker build -t pgadmin4:latest .  
 
 Crie o container do pgAdmin4:  
-~/dockerfile/pgAdmin4# docker run --name pgadmin4-miti -p 5050:5050 -d pgadmin4  
+~/dockerfile/pgAdmin4# docker run --name pgadmin4-miti -p 5050:5050 -d pgadmin4:latest  
 
 Veja se está rodando (up):  
 ~# docker ps  
-CONTAINER ID   IMAGE            COMMAND              CREATED           STATUS           NAMES              PORTS  
-5986f0817de5  pgadmin4  "/docker-entrypoint.sh"   10 seconds ago   Up 10 seconds ago pgadmin4-miti 0.0.0.0:5050->5050/tcp  
+CONTAINER ID        IMAGE             COMMAND               CREATED           STATUS            NAMES              PORTS  
+5986f0817de5  pgadmin4:latest  "/docker-entrypoint.sh"   10 seconds ago   Up 10 seconds ago pgadmin4-miti 0.0.0.0:5050->5050/tcp  
 
 Pronto!  
 
