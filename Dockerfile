@@ -1,5 +1,5 @@
 FROM alpine
-MAINTAINER Caue Madrum <caue.alves@miti.com.br>
+MAINTAINER Madrum <caue.alves@miti.com.br>
 
 ENV SERVER_MODE 		True
 ENV DEFAULT_SERVER_PORT		5050
