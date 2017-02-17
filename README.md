@@ -10,8 +10,8 @@ Dentro da sua pasta dockerfile, crie a pasta pgAdmin4:
 ~/dockerfile/pgAdmin4#  
 
 Baixe os arquivos:  
-~/dockerfile/pgAdmin4# wget  
-~/dockerfile/pgAdmin4# wget  
+~/dockerfile/pgAdmin4# wget https://github.com/MITI-Infra/pgAdmin4/blob/master/Dockerfile  
+~/dockerfile/pgAdmin4# wget https://github.com/MITI-Infra/pgAdmin4/blob/master/docker-entrypoint.sh  
 ~/dockerfile/pgAdmin4# ls  
 Dockerfile  docker-entrypoint.sh  
 
