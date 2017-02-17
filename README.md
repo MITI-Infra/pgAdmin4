@@ -19,7 +19,7 @@ Monte agora a imagem do docker:
 ~/dockerfile/pgAdmin4# docker build -t pgadmin4:latest .  
 
 Crie o container do pgAdmin4:  
-~/dockerfile/pgAdmin4# docker run --name some-pgadmin4 -p 5050:5050 -d pgadmin4  
+~/dockerfile/pgAdmin4# docker run --name pgadmin4-miti -p 5050:5050 -d pgadmin4  
 
 Veja se está rodando (up):  
 ~# docker ps  
