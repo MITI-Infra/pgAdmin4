@@ -6,14 +6,19 @@ Como montar (Build)
 
 Dentro da sua pasta dockerfile, crie a pasta pgAdmin4:
 ~# cd ~/dockerfile
+
 ~/dockerfile# mkdir pgAdmin4
+
 ~/dockerfile# cd pgAdmin4
+
 ~/dockerfile/pgAdmin4#
 
 Monte agora a imagem do docker:
 ~/dockerfile/pgAdmin4# docker build -t pgadmin4:latest .
+
 Crie o container do pgAdmin4:
 ~/dockerfile/pgAdmin4# docker run --name some-pgadmin4 -p 5050:5050 -d pgadmin4
+
 Veja se está rodando (up):
 ~# docker ps
 CONTAINER ID   IMAGE            COMMAND              CREATED           STATUS           NAMES              PORTS
